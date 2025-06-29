@@ -11,7 +11,7 @@ STATE_GAMEOVER = "gameover"
 STATE_WIN = "win"
 
 game_state = STATE_MENU
-music_on = False  # começa desligada para combinar com o botão
+music_on = False
 
 platforms = [
     Rect(0, HEIGHT - 20, WIDTH, 20),
